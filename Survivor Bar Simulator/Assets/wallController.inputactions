@@ -1,0 +1,52 @@
+{
+    "name": "wallController",
+    "maps": [
+        {
+            "name": "WallMaps",
+            "id": "d704dc56-a439-4ee9-9f28-a59ad642f054",
+            "actions": [
+                {
+                    "name": "DisableWalls",
+                    "type": "Button",
+                    "id": "f04103e5-e89f-40f0-b1da-f2bec21c852f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DisableWallsFront",
+                    "type": "Button",
+                    "id": "405cdffe-d55c-4aae-9049-3199710af9b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a45bca63-6c14-483b-8210-8ccac65b844d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DisableWalls",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bb49677-4a95-427a-b075-652020ad0390",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DisableWallsFront",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
